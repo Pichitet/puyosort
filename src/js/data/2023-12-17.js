@@ -40,13 +40,13 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Variations",
     key: "variation",
-    tooltip: "Check this to remove characters that are just skins unless they're confirmed seperate characters."
+    tooltip: "Check this to remove characters that are just skins unless they're confirmed seperate characters.",
+    checked: false
   },
   {
     name: "Remove Non-Playable Characters",
     key: "npc",
-    tooltip: "Check this to remove characters you can't play as.",
-    checked: false
+    tooltip: "Check this to remove characters you can't play as."
   }
 ];
 
