@@ -511,7 +511,8 @@ dataSet[dataSetVersion].characterData = [
       img: "darkmarle.png",
       opts: {
         games: ["tet2"],
-		eras: ["sega"]
+		eras: ["sega"],
+		variation: true
       }
     },
 	{
