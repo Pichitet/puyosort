@@ -8,8 +8,16 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain games.",
     checked: false,
     sub: [
+	  { name: "15th Anniversary", key: "15th" },
+	  { name: "Puyo 7", key: "7" },
       { name: "20th Anniversary", key: "20th" },
 	  { name: "20th Anniversary Skins", key: "20thsk" },
+	  { name: "Puyo Tetris", key: "tet" },
+	  { name: "Chronicles", key: "chron" },
+	  { name: "Chronicles Skill Exclusive", key: "chronsk" },
+	  { name: "Champions", key: "champ" },
+	  { name: "Puyo Tetris 2", key: "tet2" },
+	  { name: "Puyo Tetris 2 DLC", key: "tet2dlc" },
     ]
   }
 ];
@@ -17,212 +25,443 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
     {
       name: "Arle Nadja",
-      img: "themainone.png",
+      img: "arle.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Rulue",
-      img: "mommy.png",
+      img: "rulue.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Schezo Wegey",
-      img: "iwantyouguy.png",
+      img: "schezo.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Carbuncle",
-      img: "gugugu.png",
+      img: "carbuncle.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Satan(Dark Prince)",
-      img: "literallysatan.png",
+      img: "satan.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Draco Centauros",
-      img: "gaogao.png",
+      img: "draco.png",
       opts: {
-        games: ["20th"]
+        games: ["7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Witch",
-      img: "witchmorelikebitch.png",
+      img: "witch.png",
       opts: {
-        games: ["20th"]
+        games: ["20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Suketoudara",
-      img: "fwish.png",
+      img: "suke.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Amitie",
-      img: "whitegirl.png",
+      img: "amitie.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Raffina",
-      img: "wagamuffin.png",
+      img: "raffina.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Sig",
-      img: "myboy.png",
+      img: "sig.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Ms. Accord",
-      img: "allaccordingtoplan.png",
+      img: "accord.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chron", "tet2dlc"]
       }
     },
 	{
       name: "Klug",
-      img: "nerdalert.png",
+      img: "klug.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "tet2"]
       }
     },
 	{
       name: "Lidelle",
-      img: "cuteimpgirl.png",
+      img: "lidelle.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chron", "tet2dlc"]
       }
     },
 	{
       name: "Lemres",
-      img: "candyman.png",
+      img: "lemres.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "tet2"]
       }
     },
 	{
       name: "Feli",
-      img: "morelikefelloffamirite.png",
+      img: "feli.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "7", "20th", "tet", "chron", "tet2"]
       }
     },
 	{
       name: "Ocean Prince",
-      img: "royalfwish.png",
+      img: "oceanprince.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chron", "tet2dlc"]
       }
     },
 	{
       name: "Yu & Rei",
-      img: "ghostofachance.png",
+      img: "yurei.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chron", "tet2dlc"]
       }
     },
 	{
       name: "Onion Pixie",
-      img: "oniondeeznu.png",
+      img: "onionpixie.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chronsk"]
       }
     },
 	{
-      name: "Dongurigaeru",
-      img: "frogfuck.png",
+      name: "Donguri Gaeru",
+      img: "dongurigaeru.png",
       opts: {
-        games: ["20th"]
+        games: ["15th", "20th", "chronsk"]
       }
     },
 	{
       name: "Ringo Ando",
-      img: "badapple.png",
+      img: "ringo.png",
       opts: {
-        games: ["20th"]
+        games: ["7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Maguro Sasaki",
-      img: "gamerboystar.png",
+      img: "maguro.png",
       opts: {
-        games: ["20th"]
+        games: ["7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Risukuma",
-      img: "abearorasquirrel.png",
+      img: "risukuma.png",
       opts: {
-        games: ["20th"]
+        games: ["7", "20th", "tet", "chron", "champ", "tet2"]
       }
     },
 	{
       name: "Ecolo",
-      img: "blobbyblob.png",
+      img: "ecolo.png",
       opts: {
-        games: ["20th"]
+        games: ["7", "20th", "tet", "chron", "tet2"]
       }
     },
 	{
       name: "Red Amitie",
-      img: "thesungodig.png",
+      img: "redamitie.png",
       opts: {
         games: ["20thsk"]
       }
     },
 	{
       name: "Black/Dark Sig",
-      img: "justaglimpseintomydarkreality.png",
+      img: "darksig.png",
       opts: {
         games: ["20thsk"]
       }
     },
 	{
       name: "Yellow Satan(Onesie Prince)",
-      img: "literallysataninhispajamas.png",
+      img: "onesieprince.png",
       opts: {
         games: ["20thsk"]
       }
     },
 	{
       name: "Unusual/Alter Ecolo",
-      img: "justadroolingscrunkle.png",
+      img: "alterecolo.png",
       opts: {
         games: ["20thsk"]
       }
     },
 	{
       name: "White/Angelic Feli",
-      img: "icanbeyourangleoryuordevil.png",
+      img: "angelicfeli.png",
       opts: {
         games: ["20thsk"]
       }
     },
 	{
       name: "Strange/Possessed Klug",
-      img: "ayayay.png",
+      img: "aya.png",
       opts: {
-        games: ["20thsk"]
+        games: ["20thsk", "tet2dlc"]
+      }
+    },
+	{
+      name: "Dark Arle",
+      img: "darkle.png",
+      opts: {
+        games: ["7"]
+      }
+    },
+	{
+      name: "Nasu Grave",
+      img: "nasugrave.png",
+      opts: {
+        games: ["15th"]
+      }
+    },
+	{
+      name: "Zoh Daimaoh",
+      img: "zohdaimaoh.png",
+      opts: {
+        games: ["15th"]
+      }
+    },
+	{
+      name: "Baldanders",
+      img: "baldanders.png",
+      opts: {
+        games: ["15th"]
+      }
+    },
+	{
+      name: "Dapper/Oshare Bones",
+      img: "oshare.png",
+      opts: {
+        games: ["15th"]
+      }
+    },
+	{
+      name: "Akuma",
+      img: "akuma.png",
+      opts: {
+        games: ["15th"]
+      }
+    },
+	{
+      name: "Tee",
+      img: "tee.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Ess",
+      img: "ess.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "O",
+      img: "o.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Jay & Elle",
+      img: "jayelle.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Zed",
+      img: "zed.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Ai",
+      img: "ai.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Ex",
+      img: "ex.png",
+      opts: {
+        games: ["tet", "tet2"]
+      }
+    },
+	{
+      name: "Ally",
+      img: "ally.png",
+      opts: {
+        games: ["chron", "tet2"]
+      }
+    },
+	{
+      name: "Rafisol",
+      img: "rafisol.png",
+      opts: {
+        games: ["chron", "tet2dlc"]
+      }
+    },
+	{
+      name: "Ragnus",
+      img: "ragnus.png",
+      opts: {
+        games: ["chronsk", "tet2dlc"]
+      }
+    },
+	{
+      name: "Harpy",
+      img: "harpy.png",
+      opts: {
+        games: ["chronsk", "champ", "tet2dlc"]
+      }
+    },
+	{
+      name: "Serilly",
+      img: "serilly.png",
+      opts: {
+        games: ["chronsk", "champ", "tet2dlc"]
+      }
+    },
+	{
+      name: "Alex",
+      img: "alex.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Ciel",
+      img: "ciel.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Hartmann",
+      img: "hartmann.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Hed",
+      img: "hed.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Penglai",
+      img: "penglai.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Sultana",
+      img: "sultana.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Paprisu",
+      img: "paprisu.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Valkyrie Arle",
+      img: "valkarle.png",
+      opts: {
+        games: ["champ"]
+      }
+    },
+	{
+      name: "Dark Marle",
+      img: "darkmarle.png",
+      opts: {
+        games: ["tet2"]
+      }
+    },
+	{
+      name: "Marle",
+      img: "marle.png",
+      opts: {
+        games: ["tet2"]
+      }
+    },
+	{
+      name: "Squares",
+      img: "squares.png",
+      opts: {
+        games: ["tet2"]
+      }
+    },
+	{
+      name: "Sonic",
+      img: "sonic.png",
+      opts: {
+        games: ["tet2dlc"]
+      }
+    },
+	{
+      name: "Legamünt",
+      img: "legamunt.png",
+      opts: {
+        games: ["tet2dlc"]
+      }
+    },
+	{
+      name: "Rozatte",
+      img: "rozatte.png",
+      opts: {
+        games: ["tet2dlc"]
+      }
+    },
+	{
+      name: "Skeleton T",
+      img: "skeletont.png",
+      opts: {
+        games: ["7"]
       }
     }
 ];
