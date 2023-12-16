@@ -8,7 +8,11 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain games.",
     checked: false,
     sub: [
-	  { name: "Minna de Puyo Puyo", key: "minna" },
+	  { name: "Puyo Sun", key: "sun" },
+	  { name: "Pocket Puyo Sun", key: "pocksun" },
+	  { name: "Puyo~n", key: "yon" },
+	  { name: "Pocket Puyo~n", key: "pockyon" },
+	  { name: "Minna de Puyo", key: "minna" },
 	  { name: "Fever 1", key: "fev" },
       { name: "Fever 2", key: "fev2" },
 	  { name: "15th Anniversary", key: "15th" },
@@ -55,7 +59,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Arle Nadja",
       img: "arle.png",
       opts: {
-        games: ["minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -63,7 +67,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Rulue",
       img: "rulue.png",
       opts: {
-        games: ["minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -71,7 +75,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Schezo Wegey",
       img: "schezo.png",
       opts: {
-        games: ["minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -79,7 +83,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Carbuncle",
       img: "carbuncle.png",
       opts: {
-        games: ["minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -87,7 +91,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Satan(Dark Prince)",
       img: "satan.png",
       opts: {
-        games: ["minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -95,7 +99,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Draco Centauros",
       img: "draco.png",
       opts: {
-        games: ["minna", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -103,7 +107,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Witch",
       img: "witch.png",
       opts: {
-        games: ["minna", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -111,7 +115,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Suketoudara",
       img: "suke.png",
       opts: {
-        games: ["minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
 		eras: ["comp"]
       }
     },
@@ -317,7 +321,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Zoh Daimaoh",
       img: "zohdaimaoh.png",
       opts: {
-        games: ["minna", "15th"],
+        games: ["sun", "pocksun", "minna", "15th"],
 		eras: ["comp"]
       }
     },
@@ -421,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ragnus",
       img: "ragnus.png",
       opts: {
-        games: ["minna", "chronsk", "tet2dlc"],
+        games: ["sun", "pocksun", "pockyon", "minna", "chronsk", "tet2dlc"],
 		eras: ["comp"]
       }
     },
@@ -429,7 +433,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Harpy",
       img: "harpy.png",
       opts: {
-        games: ["minna", "chronsk", "champ", "tet2dlc"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "chronsk", "champ", "tet2dlc"],
 		eras: ["comp"]
       }
     },
@@ -437,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Serilly",
       img: "serilly.png",
       opts: {
-        games: ["minna", "chronsk", "champ", "tet2dlc"],
+        games: ["pocksun", "yon", "pockyon", "minna", "chronsk", "champ", "tet2dlc"],
 		eras: ["comp"]
       }
     },
@@ -557,7 +561,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Skeleton T",
       img: "skeletont.png",
       opts: {
-        games: ["minna", "7"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna", "7"],
 		eras: ["comp"]
       }
     },
@@ -565,7 +569,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Incubus",
       img: "incubus.png",
       opts: {
-        games: ["minna"],
+        games: ["sun", "pocksun", "pockyon", "minna"],
 		eras: ["comp"]
       }
     },
@@ -573,7 +577,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Kikimora",
       img: "kikimora.png",
       opts: {
-        games: ["minna"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna"],
 		eras: ["comp"]
       }
     },
@@ -581,7 +585,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Nohoho",
       img: "nohoho.png",
       opts: {
-        games: ["minna"],
+        games: ["sun", "pocksun", "yon", "pockyon", "minna"],
 		eras: ["comp"]
       }
     },
@@ -589,7 +593,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Minotauros",
       img: "minotaur.png",
       opts: {
-        games: ["minna"],
+        games: ["pocksun", "pockyon", "minna"],
 		eras: ["comp"]
       }
     },
@@ -726,5 +730,94 @@ dataSet[dataSetVersion].characterData = [
         games: ["quest"],
 		eras: ["quest"]
       }
-    }
+    },
+	{
+      name: "Archan",
+      img: "archan.png",
+      opts: {
+        games: ["yon", "pockyon"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Chico",
+      img: "chico.png",
+      opts: {
+        games: ["yon", "pockyon"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Pierrot",
+      img: "pierrot.png",
+      opts: {
+        games: ["pockyon"],
+		eras: ["comp"],
+		variation: true
+      }
+    },
+	{
+      name: "Doppelganger Arle",
+      img: "doppel.png",
+      opts: {
+        games: ["yon", "pockyon"],
+		eras: ["quest"]
+      }
+    },
+	{
+      name: "Panotty",
+      img: "panotty.png",
+      opts: {
+        games: ["yon", "pockyon"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Dragon",
+      img: "dragon.png",
+      opts: {
+        games: ["yon", "pockyon"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Choppun",
+      img: "choppun.png",
+      opts: {
+        games: ["sun", "pocksun"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Kodomo Dragon",
+      img: "kodomo.png",
+      opts: {
+        games: ["sun", "pocksun"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Honey Bee",
+      img: "bee.png",
+      opts: {
+        games: ["sun", "pocksun", "pockyon"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Scylla",
+      img: "scylla.png",
+      opts: {
+        games: ["pocksun"],
+		eras: ["comp"]
+      }
+    },
+	{
+      name: "Cait Sith",
+      img: "cait.png",
+      opts: {
+        games: ["pocksun"],
+		eras: ["comp"]
+      }
+    },
 ];
