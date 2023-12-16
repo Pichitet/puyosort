@@ -150,7 +150,7 @@ dataSet[dataSetVersion].characterData = [
     },
 	{
       name: "Dongurigaeru",
-      img: "whitegirl.png",
+      img: "frogfuck.png",
       opts: {
         games: ["20th"]
       }
