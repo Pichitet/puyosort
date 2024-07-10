@@ -354,7 +354,7 @@ dataSet[dataSetVersion].characterData = [
       img: "darkle.png",
       opts: {
         games: ["7"],
-		eras: ["comp", "sega"],
+		eras: ["sega"],
 		color: ["purple"]
       }
     },
@@ -579,7 +579,7 @@ dataSet[dataSetVersion].characterData = [
       img: "valkarle.png",
       opts: {
         games: ["champ"],
-		eras: ["comp", "quest"],
+		eras: ["quest"],
 		color: ["yellow"],
 		variation: true
       }
