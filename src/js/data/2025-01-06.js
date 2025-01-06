@@ -1,4 +1,4 @@
-dataSetVersion = "2023-12-19"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-01-06"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -29,7 +29,8 @@ dataSet[dataSetVersion].options = [
 	  { name: "Champions", key: "champ" },
 	  { name: "Tetris 2", key: "tet2" },
 	  { name: "Tetris 2 DLC", key: "tet2dlc" },
-	  { name: "Super Puyo Puyo Quest", key: "quest" }
+	  { name: "Puzzle Pop", key: "puzpop" },
+	  { name: "Super Puyo Puyo Quest", key: "sppq" }
     ]
   },
   {
@@ -77,7 +78,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Arle Nadja",
       img: "arle.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["blue"]
       }
@@ -86,7 +87,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Rulue",
       img: "rulue.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["red"]
       }
@@ -95,7 +96,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Schezo Wegey",
       img: "schezo.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["purple"]
       }
@@ -104,7 +105,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Carbuncle",
       img: "carbuncle.png",
       opts: {
-        games: ["sun", "pocksun", "yon", "pockyon", "box", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["sun", "pocksun", "yon", "pockyon", "box", "minna", "fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop", "puzpop"],
 		eras: ["comp"],
 		color: ["yellow"]
       }
@@ -113,7 +114,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Satan(Dark Prince)",
       img: "satan.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["green"]
       }
@@ -122,7 +123,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Draco Centauros",
       img: "draco.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["green"]
       }
@@ -131,7 +132,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Witch",
       img: "witch.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["yellow"]
       }
@@ -140,7 +141,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Suketoudara",
       img: "suke.png",
       opts: {
-        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["opp", "tsu", "tsuex", "sun", "pocksun", "yon", "pockyon", "box", "minna", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["comp"],
 		color: ["red"]
       }
@@ -149,7 +150,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Amitie",
       img: "amitie.png",
       opts: {
-        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["red"]
       }
@@ -158,7 +159,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Raffina",
       img: "raffina.png",
       opts: {
-        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["yellow"]
       }
@@ -167,7 +168,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Sig",
       img: "sig.png",
       opts: {
-        games: ["fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["fev2", "15th", "7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["blue"]
       }
@@ -176,7 +177,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ms. Accord",
       img: "accord.png",
       opts: {
-        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc"],
+        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc", "puzpop"],
 		eras: ["fev"],
 		color: ["blue"]
       }
@@ -185,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Klug",
       img: "klug.png",
       opts: {
-        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "tet2"],
+        games: ["fev", "fev2", "15th", "7", "20th", "tet", "chron", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["purple"]
       }
@@ -194,7 +195,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Lidelle",
       img: "lidelle.png",
       opts: {
-        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc"],
+        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc", "puzpop"],
 		eras: ["fev"],
 		color: ["green"]
       }
@@ -203,7 +204,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Lemres",
       img: "lemres.png",
       opts: {
-        games: ["fev2", "15th", "7", "20th", "tet", "chron", "tet2"],
+        games: ["fev2", "15th", "7", "20th", "tet", "chron", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["green"]
       }
@@ -212,7 +213,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Feli",
       img: "feli.png",
       opts: {
-        games: ["fev2", "15th", "7", "20th", "tet", "chron", "tet2"],
+        games: ["fev2", "15th", "7", "20th", "tet", "chron", "tet2", "puzpop"],
 		eras: ["fev"],
 		color: ["purple"]
       }
@@ -221,7 +222,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ocean Prince",
       img: "oceanprince.png",
       opts: {
-        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc"],
+        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc", "puzpop"],
 		eras: ["fev"],
 		color: ["yellow"]
       }
@@ -230,7 +231,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Yu & Rei",
       img: "yurei.png",
       opts: {
-        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc"],
+        games: ["fev", "fev2", "15th", "20th", "chron", "tet2dlc", "puzpop"],
 		eras: ["fev"],
 		color: ["purple"]
       }
@@ -257,7 +258,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ringo Ando",
       img: "ringo.png",
       opts: {
-        games: ["7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["sega"],
 		color: ["red"]
       }
@@ -266,7 +267,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Maguro Sasaki",
       img: "maguro.png",
       opts: {
-        games: ["7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["sega"],
 		color: ["blue"]
       }
@@ -275,7 +276,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Risukuma",
       img: "risukuma.png",
       opts: {
-        games: ["7", "20th", "tet", "chron", "champ", "tet2"],
+        games: ["7", "20th", "tet", "chron", "champ", "tet2", "puzpop"],
 		eras: ["sega"],
 		color: ["yellow"]
       }
@@ -284,7 +285,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ecolo",
       img: "ecolo.png",
       opts: {
-        games: ["7", "20th", "tet", "chron", "tet2"],
+        games: ["7", "20th", "tet", "chron", "tet2", "puzpop"],
 		eras: ["sega"],
 		color: ["yellow"]
       }
@@ -353,9 +354,8 @@ dataSet[dataSetVersion].characterData = [
       img: "darkle.png",
       opts: {
         games: ["7"],
-		eras: ["comp", "sega"],
-		color: ["purple"],
-		variation: true
+		eras: ["sega"],
+		color: ["purple"]
       }
     },
 	{
@@ -470,7 +470,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Ally",
       img: "ally.png",
       opts: {
-        games: ["chron", "tet2"],
+        games: ["chron", "tet2", "puzpop"],
 		eras: ["sega"],
 		color: ["green"]
       }
@@ -479,7 +479,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Rafisol",
       img: "rafisol.png",
       opts: {
-        games: ["chron", "tet2dlc"],
+        games: ["chron", "tet2dlc", "puzpop"],
 		eras: ["sega"],
 		color: ["purple", "blue"]
       }
@@ -579,7 +579,7 @@ dataSet[dataSetVersion].characterData = [
       img: "valkarle.png",
       opts: {
         games: ["champ"],
-		eras: ["comp", "quest"],
+		eras: ["quest"],
 		color: ["yellow"],
 		variation: true
       }
@@ -782,16 +782,16 @@ dataSet[dataSetVersion].characterData = [
       name: "Atari",
       img: "atari.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["yellow"]
       }
     },
 	{
-      name: "Roquier/Rokia",
+      name: "Roquier",
       img: "rokia.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["purple"]
       }
@@ -800,25 +800,16 @@ dataSet[dataSetVersion].characterData = [
       name: "Seo",
       img: "seo.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["green"]
-      }
-    },
-	{
-      name: "Towa",
-      img: "towa.png",
-      opts: {
-        games: ["quest"],
-		eras: ["quest"],
-		color: ["red"]
       }
     },
 	{
       name: "Puubot",
       img: "puu.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["blue"]
       }
@@ -827,7 +818,7 @@ dataSet[dataSetVersion].characterData = [
       name: "Zero",
       img: "zero.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["red"]
       }
@@ -836,27 +827,9 @@ dataSet[dataSetVersion].characterData = [
       name: "Hachi",
       img: "hachi.png",
       opts: {
-        games: ["quest"],
+        games: ["sppq"],
 		eras: ["quest"],
 		color: ["blue"]
-      }
-    },
-	{
-      name: "Issen",
-      img: "issen.png",
-      opts: {
-        games: ["quest"],
-		eras: ["quest"],
-		color: ["purple"]
-      }
-    },
-	{
-      name: "Ten",
-      img: "ten.png",
-      opts: {
-        games: ["quest"],
-		eras: ["quest"],
-		color: ["green"]
       }
     },
 	{
@@ -1156,6 +1129,42 @@ dataSet[dataSetVersion].characterData = [
         games: ["box"],
 		eras: ["comp"],
 		color: ["red"]
+      }
+    },
+	{
+      name: "Meena",
+      img: "meena.png",
+      opts: {
+        games: ["puzpop"],
+		eras: ["sega"],
+		color: ["cardless"]
+      }
+    },
+	{
+      name: "Issen",
+      img: "issen.png",
+      opts: {
+        games: ["sppq"],
+		eras: ["quest"],
+		color: ["purple"]
+      }
+    },
+	{
+      name: "Towa",
+      img: "towa.png",
+      opts: {
+        games: ["sppq"],
+		eras: ["quest"],
+		color: ["red"]
+      }
+    },
+	{
+      name: "Ten",
+      img: "ten.png",
+      opts: {
+        games: ["sppq"],
+		eras: ["quest"],
+		color: ["green"]
       }
     }
 ];
